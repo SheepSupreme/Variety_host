@@ -1,0 +1,1 @@
+This is the first hosted version of the Variety Website.
