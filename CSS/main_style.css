@@ -3,7 +3,7 @@
 html {
      background: linear-gradient(#ffbed7, #e6e8ff);
      scroll-behavior: smooth;
-     width: 100vw;
+     height: 100vh;
      overflow:auto;
 }
 
@@ -133,6 +133,7 @@ body{
 }
 
 .about__container {
+     background: linear-gradient(#ffbed7, #e6e8ff);
      min-height: 600px;
      position: relative;
      display: flex;
@@ -151,6 +152,10 @@ body{
 .header__maps {
      font-size: 28px;
      padding-bottom: 15px;
+}
+
+.map__attributes {
+     width: 100vw;
 }
 
 .about__header {
@@ -328,6 +333,8 @@ body{
      }
 
      .navbar__links li a{
+          display: flex;
+          position: relative;
           color: #000000;
           font-size: 1.7rem;
           transition: all 0.1s ease;
