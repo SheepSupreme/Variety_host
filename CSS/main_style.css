@@ -182,31 +182,32 @@ body{
 .product__wrapper {
      border: solid 10px transparent;
      border-radius: 20px;    
-     display: flex;
      flex-direction: column;
      background: rgba(245, 245, 245, 0.818);
      align-items: center;
      justify-content: center;
      margin: 0 13vw 0;
-     height: 400px;
-     width: 80%;
+     height: 350px;
+     width: 85%;
 }
 
 .product__image {
      display: flex;
-     height: 70%;
+     height: 100%;
      width: 100%;
      justify-content: center;
      align-items: center;
 }
 
 .product__image a{
+     box-shadow: 0px 0px 40px 40px #000000;
      display: flex;
      justify-content: center;
      align-items: center;
-     scale: 0.25;
+     scale: 0.28;
      object-fit: contain;
-     padding: 10px;
+     border: solid;
+     border-radius: 20px;
 }
 
 .product__description {
@@ -221,6 +222,7 @@ body{
      padding: 7px;
      align-items: center;
      justify-content: space-around;
+     transform: translate(0,-115px);
 } 
 
 .product__description h3 {
