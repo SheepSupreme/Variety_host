@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Trispace&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 html {
      background: linear-gradient(#ffbed7, #e6e8ff);
      scroll-behavior: smooth;
@@ -16,7 +15,7 @@ body{
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-     font-family: 'Trispace', sans-serif;
+     font-family: 'Gloock', serif;
 }
 
 /*NAVBAR*/
